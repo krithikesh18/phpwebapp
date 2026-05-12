@@ -54,7 +54,7 @@ $records = $conn->query("SELECT id, name, email, mobile FROM userdetails ORDER B
 <body style="background-color:gainsboro;">
   <div class="container py-5 px-5">
     <div class="text-center py-3">
-      <h2>CRUD OPERATIONS</h2>
+      <h2>CRUD OPERATIONS CI/CD</h2>
     </div>
     <?php if ($success): ?>
       <div class="alert alert-success"><?= $success ?></div>
